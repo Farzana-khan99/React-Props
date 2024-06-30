@@ -4,7 +4,7 @@ const Navbar = () => {
       <ul>
         {["home", "about", "services", "contact"].map((link, key) => (
           <li key={key}>
-            <a href={`/${link}`}>{link}</a>
+            <a href={`/${link}`} target="_blank" >{link}</a>
           </li>
         ))}
       </ul>
